@@ -1,0 +1,22 @@
+To start Installing Tensorflow:
+>pip install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.12.0-py3-none-any.whl
+Error: Unable to load dependency HDF5, make sure HDF5 is installed properly.
+ERROR: Failed building wheel for h5py
+Failed to build h5py.
+ERROR: Could not build wheels for h5py which use PEP 517 and cannot be installed directly
+Solution 1: >pip install --upgrade pip setup tools wheel
+Answer: Successfully built termcolor
+                Failed to build h5py.
+Solution 2: >pip install versioned-hdf5
+After this, run this command by closing all the other folders on the device.
+>pip install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.12.0-py3-none-any.whl
+Result: Successfully installed absl-py-0.11.0 astor-0.8.1 gast-0.4.0 grpcio-1.35.0 importlib-metadata-3.4.0 keras-applications-1.0.8 keras-preprocessing-1.1.2 markdown-3.3.3 protobuf-3.14.0 tensorboard-1.12.2 tensorflow-1.12.0 termcolor-1.1.0 typing-extensions-3.7.4.3 werkzeug-1.0.1 zipp-3.4.0
+
+To create a virtual environment in Python where TensorFlow can run smoothly, following commands are being used in Anaconda prompt window. 
+P.S. A Python virtual environment provides isolated environments for Python projects. This implies that every project can have its own dependencies, in spite of what dependencies every other project has.
+Step 1: >conda create -n tensorflow
+Proceed ([y]/n)? y
+Step 2: >activate tensorflow
+Proceed ([y]/n)? y
+Step 3: >python
+Step 4: >spyder
